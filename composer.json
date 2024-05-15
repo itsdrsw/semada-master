@@ -1,0 +1,27 @@
+{
+    "name": "dfdiag/php-login-semada",
+    "description": "PHP Login semada",
+    "type": "project",
+    "authors": [
+        {
+            "name": "Dimas Fajar Kurniawan",
+            "email": "fajard916@gmail.com"
+        }
+    ],
+    "require": {
+        "php" : ">=8"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "9.5.8"
+    },
+    "autoload": {
+        "psr-4": {
+            "dfdiag\\Belajar\\PHP\\MVC\\" : "app"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "dfdiag\\Belajar\\PHP\\MVC\\" : "test"
+        }
+    }
+}
